@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "SamSanPass",
+    "version": "1.0.0",
+    "description": "Best free open source password manager for Google Chrome",
+    "icons": {
+        "16": "images/16icon.png",
+        "48": "images/48icon.png",
+        "128": "images/128icon.png" 
+    },  
+    "action": {
+    "default_icon": "extloogo.png", 
+    "default_popup": "extlogin.html"
+    }
+}

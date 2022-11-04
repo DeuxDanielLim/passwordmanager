@@ -1,0 +1,128 @@
+
+.header{
+    display: flex;
+    height: 110px;
+    width: 100%;
+    background-color: #000235;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.36);
+    position: fixed;
+}
+
+
+/***Logo and SamSan Style***/
+.logo{
+    height: 180px;
+    width: 180px;
+    cursor:pointer;
+    margin-right: -150px;
+    margin-left: -120px;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    margin-right: 700px;
+    margin-left: 110px;
+    cursor: pointer;
+    
+}
+
+h1:hover {
+    font-size: 50px;
+    text-indent: 10px;
+}
+
+/***Logo and SamSan Style***/
+
+
+
+
+
+
+
+
+
+
+/***Navigation bar style***/
+.navbar{
+    margin-right: 20px;
+    margin-left: -100px;
+    
+}
+
+ul li {
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 28px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #919191;
+    position: absolute;
+    left: 0;
+    bottom: -13px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+/***Navigation bar style***/
+
+
+
+
+
+
+
+
+
+
+
+/****login button***/
+.login{
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    margin-right: 10px;
+    
+    color: rgb(4, 196, 4);
+}
+.login:hover{
+    background-color: green;
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: white;
+}
+/****login button***/
+
+
+/**Add link***/
+.addext{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 22px;
+    transition: 0.3s;
+    margin-right: -50px;
+
+}
+
+.addext:hover{
+    background-color: green;
+    padding: 7px 10px;
+    border-radius: 15px;
+
+}
